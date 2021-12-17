@@ -1,0 +1,18 @@
+.export-card-item{
+    border: 1px solid #f2f4fb;
+    border-radius: 20px !important;
+    box-shadow: 0 5px 15px 0 rgb(46 61 73 / 14%);
+}
+.export-cont img{
+    max-width: 360px;
+}
+.export-card-img{
+    width: 100%;
+}
+
+.export-card-text{
+    /* margin: 20px 10px; */
+    text-align: center;
+    font-family: inherit;
+    color: #000;
+}

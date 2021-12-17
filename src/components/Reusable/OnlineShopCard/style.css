@@ -1,0 +1,14 @@
+.online-shop-cont img{
+    max-width: 150px;
+}
+.online-shop-card-img{
+    width: 100%;
+}
+
+.online-shop-card-text{
+    /* margin: 20px 10px; */
+    width: 260px;
+    text-align: center;
+    font-family: inherit;
+    color: #000;
+}

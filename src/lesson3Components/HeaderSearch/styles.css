@@ -1,0 +1,24 @@
+.search-input{
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,.2);
+    outline: none;
+    background: transparent;
+    color:#fff;
+}
+.button{
+    position: relative;
+    left: 2.5rem;
+    border:none !important;
+    font-size: 15px;
+}
+.inp::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 1.5rem;
+    text-transform: uppercase;
+}
+.inp{
+    text-indent: 1.5rem;
+}
+.inp:hover{
+    border-color: rgba(255,255,255,.1);
+}

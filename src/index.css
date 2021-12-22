@@ -28,7 +28,8 @@ main{
 ul{
 	list-style: none;
 }
-li{
-	float: left;
+button{
+  cursor: pointer;
 }
+
 

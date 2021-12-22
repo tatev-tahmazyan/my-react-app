@@ -1,0 +1,12 @@
+.tools-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-btn{
+    border:none;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+    color:#fff;
+}

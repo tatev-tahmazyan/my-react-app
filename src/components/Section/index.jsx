@@ -1,4 +1,4 @@
-import './style.css';
+import styles from './style.module.css';
 import OnlineShopCard from '../Reusable/OnlineShopCard';
 import ExportCard from '../Reusable/ExportCard';
 import Stars from '../Reusable/Stars';
@@ -10,7 +10,7 @@ const Section = ()  => {
     return(
         <section>
             <Container>
-                <div className='online-shop-cont p-5 mb-10'>
+                <div className={`${styles["online-shop-cont"]} p-5 mb-10`}>
                     <div className="heading-text">
                         <Stars />
                         <TitleH2 

@@ -1,5 +1,4 @@
 // import Block from './component1.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './Main';
 
 function App() {

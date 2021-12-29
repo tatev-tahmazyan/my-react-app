@@ -1,6 +1,6 @@
 import MessageDynamic from "../testComponents/MessageDynamic";
 import MessageModule from "../testComponents/MessageModule";
-import { messages } from '../helpers/mockData';
+import { messages } from '../helpers/lesson3test/mockData.js';
 import CoffeIcon from "../Icons/Coffee";
 import SunIcon from "../Icons/Sun";
 import Message from '../testComponents/MessageInline';

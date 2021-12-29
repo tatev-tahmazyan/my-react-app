@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'antd/dist/antd.css';
+
 
 body {
   margin: 0;

@@ -14,7 +14,6 @@ const FormComponent = ({ formData, handleChange }) => {
                     <Form.Control
                         type="text"
                         name={input.name}
-                        // value={input.value}
                         onChange={handleChange}
                     />
                 </Form.Group>

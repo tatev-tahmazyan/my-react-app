@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import AddTask from "./components/AddTask";
 import EditTask from "./components/EditTask";
 import Todo from "./components/Todo";
-// import { tasks } from "../../helpers/lesson8/mockData";
+import { idGenerator } from "./helpers/globalFunctions";
 
 
 const Project = () => {
@@ -13,12 +13,6 @@ const Project = () => {
     //localStorage set
     const setNewTaskToDB = (task) => {
         const tasks = JSON.parse(localStorage.getItem("tasks"));
-        // tasks.map(function(item) { 
-        //     debugger;
-        //     if(item.id === task['id']){
-        //         tasks[item] = task;
-        //     }
-        // });
         tasks.push(task);
         localStorage.setItem("tasks", JSON.stringify(tasks));
     }
@@ -40,7 +34,7 @@ const Project = () => {
         setMockTasks((prevData => {
             const copyData = [...prevData];
             const newTask= {
-                id: Math.random(),
+                id: idGenerator(),
                 title: title.value,
                 description: description.value,
                 status: "Active",
@@ -85,10 +79,10 @@ const Project = () => {
     const handleDeleteTask = useCallback((id) => {
         setMockTasks((prevData) => {
             const newTasks = prevData.filter(item => item.id !== id);
-            // const idx = prevData.findIndex(item => item.id === id);
-            // prevData.splice(idx, 1);
             setTasksToDB(newTasks);
+            return newTasks;
         });
+
     }, []);
 
     //toggle status

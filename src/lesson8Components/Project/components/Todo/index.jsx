@@ -1,6 +1,5 @@
 import React, { memo } from "react";
 import Task from "../Task";
-import "./styles.css";
 
 const Todo = ({
     mockTasks,
@@ -9,10 +8,11 @@ const Todo = ({
     editBtnOpen
 }) => {
     return (
-        <div className="tasks-wrapper">
-            {mockTasks.map(task => (
+        <div className="tasks-wrapper mt-5 d-flex justify-content-between flex-wrap">
+            {mockTasks.map((task,idx) => (
                 <Task
                     {...task}
+                    idx={idx}
                     key={task.id}
                     handleDeleteTask={handleDeleteTask}
                     toggleStatusChange={toggleStatusChange}

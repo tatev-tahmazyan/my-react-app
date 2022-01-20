@@ -8,8 +8,9 @@ import './index.css';
 // import MainLesson5 from './lesson5Components/Main';
 // import MainLesson6 from './lesson6Components/Main';
 // import MainLesson7 from './lesson7Components/Main';
-import MainLesson8 from './lesson8Components/Main';
-
+// import MainLesson8 from './lesson8Components/Main';
+// import MainLesson10 from './lesson10Components/Main';
+import FormComponent from './lesson12Components/FormComponent';
 
 ReactDOM.render( 
     <React.StrictMode>
@@ -20,7 +21,9 @@ ReactDOM.render(
         {/* <MainLesson5 /> */}
         {/* <MainLesson6 /> */}
         {/* <MainLesson7 /> */}
-        <MainLesson8 />
+        {/* <MainLesson8 />
+        <MainLesson10 /> */}
+        <FormComponent />
     </React.StrictMode>, 
     document.getElementById('root')
 );

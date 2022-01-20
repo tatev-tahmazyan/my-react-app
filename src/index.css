@@ -1,6 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'antd/dist/antd.css';
 @import 'react-toastify/dist/ReactToastify.css';
+@use 'styles/_colors.scss'; 
+
 
 
 body {
